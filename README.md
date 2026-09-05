@@ -1,8 +1,12 @@
 **Linus meteor litematica printer**
 
-Finally, a litematica printer for recent versions that doesn't suck donkey's nuts. Requires litematica and meteor client.
+Finally, a litematica printer for **recent versions that doesn't suck donkey's nuts.** Requires litematica and meteor client.
 
-# This printer only supports the 26. series. Java edition only.
+# This printer only supports the 26. series. Java edition only.  Period.
+
+# Get the latest printer release/version here:
+
+**https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Hotfix/linus-meteor-litematica-printer-1.0.1.jar**
 
 # To get litematica, download here:
 
