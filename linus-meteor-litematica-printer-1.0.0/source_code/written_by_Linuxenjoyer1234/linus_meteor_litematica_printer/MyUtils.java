@@ -536,16 +536,16 @@ public class MyUtils {
                    if (x == 0 && z == 0) continue;
                    BlockPos neighborPos = pos.offset(x, 0, z);
                    BlockState schematicState = schematic.getBlockState(neighborPos);
-                   
+
                    if (schematicState.getBlock() instanceof ChestBlock && schematicState.hasProperty(BlockStateProperties.HORIZONTAL_FACING) && schematicState.getValue(BlockStateProperties.HORIZONTAL_FACING) == reqFacing) {
                        ChestType schematicType = schematicState.hasProperty(BlockStateProperties.CHEST_TYPE) ? schematicState.getValue(BlockStateProperties.CHEST_TYPE) : ChestType.SINGLE;
                        if (schematicType != ChestType.SINGLE) {
                            // There is a double chest in the schematic here. Check if it's placed correctly in the world.
                            BlockState worldState = MeteorClient.mc.level.getBlockState(neighborPos);
                            boolean isPlacedCorrectly = worldState.getBlock() == schematicState.getBlock() && worldState.hasProperty(BlockStateProperties.CHEST_TYPE) && worldState.getValue(BlockStateProperties.CHEST_TYPE) == schematicType;
-                           
+
                            if (!isPlacedCorrectly) {
-                               // A double chest part of same facing is nearby but not ready. 
+                               // A double chest part of same facing is nearby but not ready.
                                // We refuse to place the single chest to avoid blocking it or connecting incorrectly.
                                return PredictionResult.FAIL_INCORRECT_CONNECTION;
                            }
@@ -556,7 +556,7 @@ public class MyUtils {
        }
 
        // 2. World Connection Guard: Check if placing this would form an illegal connection
-       for (Direction dir : Direction.Plane.HORIZONTAL) {
+       for (Direction dir : new Direction[]{reqFacing.getClockWise(), reqFacing.getCounterClockWise()}) {
            BlockPos neighborPos = pos.relative(dir);
            BlockState neighborState = MeteorClient.mc.level.getBlockState(neighborPos);
 
