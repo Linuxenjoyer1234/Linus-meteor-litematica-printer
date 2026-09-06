@@ -2,7 +2,7 @@
 
 Finally, a litematica printer for **recent versions that doesn't suck donkey's nuts.** Requires litematica and meteor client.
 
-**NOTE: Does not support signs, this will be in the next version: v1.10**
+**NOTE: Does not support signs and liquids, support for these will be in the next version: v1.10**
 
 # This printer only supports the 26. series. Java edition only.  Period.
 
