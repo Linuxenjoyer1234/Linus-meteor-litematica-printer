@@ -156,10 +156,10 @@ public class Printer extends Module {
       this.respectFalling = this.sgGeneral.add(new BoolSetting.Builder().name("Respect falling blocks").description("Refuse to place falling blocks until there's ground beneath them.").defaultValue(true).build());
       this.specialFix = this.sgGeneral.add(new BoolSetting.Builder().name("Special object fix").description("Rapidly interact with blocks like Doors and Repeaters until they match the schematic.").defaultValue(true).build());
       this.noInteract = this.sgWorkMode.add(new BoolSetting.Builder().name("Block accidental interactions").description("This fixes accidental interactions caused by the printer.").defaultValue(true).build());
-      this.blockTimeAmount = this.sgWorkMode.add(new IntSetting.Builder().name("Block time amount").description("Blocks any other interactions other than the printer's for the set amount of ticks.").defaultValue(2).min(1).max(20).sliderMin(1).sliderMax(20).visible(this.noInteract::get).build());
+      this.blockTimeAmount = this.sgWorkMode.add(new IntSetting.Builder().name("Block time amount").description("Prevents the printer from accidentally interacting with blocks when placing.").defaultValue(2).min(1).max(200).sliderMin(1).sliderMax(20).visible(this.noInteract::get).build());
       
       this.stopOnInterrupt = this.sgWorkMode.add(new BoolSetting.Builder().name("Stop on interrupt").description("Pauses the printer if you manually interact or switch hotbar slots.").defaultValue(false).build());
-      this.interruptTicks = this.sgWorkMode.add(new IntSetting.Builder().name("Interrupt ticks").description("How many ticks to wait before resuming after an interruption.").defaultValue(10).min(1).max(1000).sliderMin(1).sliderMax(20).visible(this.stopOnInterrupt::get).build());
+      this.interruptTicks = this.sgWorkMode.add(new IntSetting.Builder().name("Interrupt ticks").description("How many ticks to wait before resuming after an interruption.").defaultValue(10).min(1).max(200).sliderMin(1).sliderMax(20).visible(this.stopOnInterrupt::get).build());
 
       this.antiWrongDoor = this.sgNiche.add(new BoolSetting.Builder().name("Anti-wrong door placement").description("Only place doors if the predicted hinge matches the schematic.").defaultValue(true).build());
       this.dontRemindDoor = this.sgNiche.add(new BoolSetting.Builder().name("Don't remind to disable (Doors)").description("Removes the 'You can disable this...' part from door warnings.").defaultValue(false).visible(this.antiWrongDoor::get).build());
