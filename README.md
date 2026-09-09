@@ -8,7 +8,7 @@ Finally, a litematica printer for **recent versions that doesn't suck donkey's n
 
 # Get the latest printer release/version here:
 
-**https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Hotfix/linus-meteor-litematica-printer-1.0.1.jar**
+**https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Early-release2/linus-meteor-litematica-printer-v1.0.5.jar**
 
 # To get litematica, download here:
 
