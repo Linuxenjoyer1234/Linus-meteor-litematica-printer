@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "written_by_Linuxenjoyer1234.linus_meteor_litematica_printer.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "FontMixin",
+    "SettingsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
