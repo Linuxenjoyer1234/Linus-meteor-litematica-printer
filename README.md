@@ -1,3 +1,5 @@
+# [Download (v1.0.5)](https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Early-release2/linus-meteor-litematica-printer-v1.0.5.jar)
+
 **Linus meteor litematica printer**
 
 Finally, a litematica printer for **recent versions that doesn't suck donkey's nuts.** Requires litematica and meteor client.
@@ -5,8 +7,6 @@ Finally, a litematica printer for **recent versions that doesn't suck donkey's n
 **NOTE: Does not support signs and liquids, support for these will be in the next version: v1.10**
 
 # This printer only supports the 26. series. Java edition only. Fabric only. Period.
-
-# [Download latest version here](https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Early-release2/linus-meteor-litematica-printer-v1.0.5.jar)
 
 # To get litematica, download here:
 
