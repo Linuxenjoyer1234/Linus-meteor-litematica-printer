@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "name": "Linus Meteor Litematica Printer",
+  "id": "linus-meteor-litematica-printer",
+  "version": "v1.0.6",
+  "description": "Finally, a litematica printer for recent versions that doesn't suck donkey's nuts.\n\n Requires litematica and meteor client.\n\n Contact me trough these 2 methods: \n\n Github: https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer \n\n Discord: linuxenjoyer1234_06773",
+  "authors": [
+    "Linuxenjoyer1234"
+  ],
+  "contact": {
+    "repo": "https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer"
+  },
+  "icon": "assets/linus_meteor_litematica_printer/icon.png",
+  "environment": "client",
+  "mixins": [
+    "linus_meteor_litematica_printer.mixins.json"
+  ],
+  "entrypoints": {
+    "meteor": [
+      "written_by_Linuxenjoyer1234.linus_meteor_litematica_printer.Addon"
+    ]
+  },
+  "depends": {
+    "java": ">=25",
+    "minecraft": ">=26.1.2",
+    "meteor-client": "*"
+  }
+}
