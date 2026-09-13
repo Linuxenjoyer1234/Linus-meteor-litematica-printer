@@ -1,4 +1,4 @@
-# [Download (v1.0.5)](https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Early-release2/linus-meteor-litematica-printer-v1.0.5.jar)
+# [Download (v1.0.6)](https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Hotfix2/linus-meteor-litematica-printer-v1.0.6.jar)
 
 **Linus meteor litematica printer**
 
