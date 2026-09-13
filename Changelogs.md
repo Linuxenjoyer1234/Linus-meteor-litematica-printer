@@ -24,3 +24,37 @@ Changed the versions to start with a v.
 Fixed the anti-box in arrow being imperfect.
 
 Added coloring to anti box in arrow.
+
+# Hotfix v1.0.6
+
+**-Important-**
+
+**Fixed Block random interactions doing absolutely nothing, now it should block the printer from open containers such as chests, hoppers, ect.**
+
+**Fixed stop on interrupt to make it not useless** 
+
+**Fixed pots** *partially, full support coming later*
+
+**Integrated special object fix to count as a normal printer move**
+
+- ^ This also fixes glitchy interactions without superspeed being on.
+
+**Fixed grass blocks counting as "advanced" in superspeed.**
+
+**Fixed the printer glitching out if it tries to place an invalid blocks (Such as end gateways, portal blocks, and MUCH more).**
+
+**-Visual-**
+
+**Fixed a weird bug where in some clients (such as modrinth client) it would show "§0Lin§eus §5Meteor §eL§bi§ct§de§em§ba§ct§di§ec§ba §bPrinter" as the name of the printer, that is now fixed.**
+
+**Fixed the "Meteor" part of the "Linus Meteor Litematica Printer" not matching the actual color of the meteor client title screen text in the main menu.**
+
+**Fixed the Superspeed slider being hard to grab**
+
+**-Known issues-**
+
+**On bad server hardware speeds 0-1 can cause server-client desync from items (a.k.a ghost items)**
+
+**This can cause the printer to not properly place blocks and result in blocks being completely wrong**
+
+**This will be fixed in next full version:** *v1.10.*
