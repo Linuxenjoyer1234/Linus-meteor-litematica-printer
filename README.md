@@ -6,9 +6,7 @@ Finally, a litematica printer for **recent versions that doesn't suck donkey's n
 
 # This printer only supports the 26. series. Java edition only. Fabric only. Period.
 
-# Get the latest printer release/version here:
-
-**https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Early-release2/linus-meteor-litematica-printer-v1.0.5.jar**
+# [Download latest version here](https://github.com/Linuxenjoyer1234/Linus-meteor-litematica-printer/releases/download/Early-release2/linus-meteor-litematica-printer-v1.0.5.jar)
 
 # To get litematica, download here:
 
