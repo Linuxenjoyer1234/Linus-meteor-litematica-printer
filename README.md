@@ -6,6 +6,8 @@ Finally, a litematica printer for **recent versions that doesn't suck donkey's n
 
 **NOTE: Does not support signs and liquids, support for these will be in the next version: v1.10**
 
+**NOTE2: There is currently no anti-rubber band, it will be added in the next version: v1.10**
+
 # This printer only supports the 26. series. Java edition only. Fabric only. Period.
 
 # To get litematica, download here:
