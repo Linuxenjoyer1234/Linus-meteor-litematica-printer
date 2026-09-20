@@ -8,6 +8,8 @@ Finally, a litematica printer for **recent versions that doesn't suck donkey's n
 
 **NOTE2: There is currently no anti-rubber band, it will be added in the next version: v1.10**
 
+**NOTE3: I play on 26.1.2, this means that any bugs in later versions than this I can't really do much about until I update, which is going to be hell considering how fucking many optimization mods and other things I have**
+
 # This printer only supports the 26. series. Java edition only. Fabric only. Period.
 
 # To get litematica, download here:
